@@ -6,15 +6,19 @@ const TILE_STATUS = {
     SAFE: "safe"
 }
 
-const BOARD_SIZE = 10
-const MINE_COUNT = 8
+const TILE_SIZE = 32
+const BOARD_SIZE = 16
+const MINE_COUNT = 40
 
 let board = []
 const boardElement = document.querySelector(".board")
 const statusText = document.querySelector(".status")
 
 boardElement.addEventListener("contextmenu", e => { e.preventDefault() })
-boardElement.style.setProperty("--size", BOARD_SIZE)
+
+const root = document.documentElement
+root.style.setProperty("--size", BOARD_SIZE)
+root.style.setProperty("--tile", TILE_SIZE + "px")
 
 startGame()
 
