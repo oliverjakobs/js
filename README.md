@@ -1,1 +1,1 @@
-# A Collection of various projects in plain javascript
+# A Collection of various projects in plain JavaScript
