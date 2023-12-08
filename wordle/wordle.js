@@ -23,7 +23,7 @@ function startGame() {
     boardElement.textContent = ""
     currentRow = 0
     guess = ""
-    secret = "fewer"//wordList[Math.floor(Math.random() * wordList.length)]
+    secret = wordList[Math.floor(Math.random() * wordList.length)]
     
     gameOver = false
 
