@@ -1,3 +1,10 @@
+
+.container {
+  background-color: #999999;
+  padding: var(--tile);
+  border-radius: 4px;
+}
+
 .menu {
   width: 100%;
   display: grid;

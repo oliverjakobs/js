@@ -17,27 +17,17 @@ body {
   margin: 0.6em;
 }
 
-.container {
-  background-color: #999999;
-  padding: var(--tile);
-  border-radius: 4px;
-  margin-bottom: 1em;
-}
-
-
 /* FOOTER */
 .page-footer {
   font-size: 0.8rem;
-  margin-top: 2em; 
-  margin-bottom: 1.2em; 
+  margin-top: 3rem; 
+  margin-bottom: 1.2rem; 
   text-align: center; 
   color: #bbbbbb; 
   border-top: 1px solid #bbbbbb;
-  width: calc(var(--tile) * var(--size));
+  width: 360px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: var(--tile);
-  padding-left: var(--tile);
 }
 
 .page-footer ul { list-style: none; padding: 0em; margin: 1em 0em; }
